@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="transformers" />
+          <option value="datasets" />
+          <option value="accelerate" />
+          <option value="kfp" />
+          <option value="kfp-kubernetes" />
+          <option value="docker" />
+          <option value="pandas" />
+          <option value="scikit-learn" />
+          <option value="google-cloud-storage" />
+          <option value="boto3" />
+          <option value="tensorboard" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
